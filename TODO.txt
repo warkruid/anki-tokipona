@@ -3,3 +3,5 @@ Add images to flashcards (Check if earch one is copyright free!)
 Add requirements.txt
 Add color to tekst in flashcard (noun is red, etc etc)
 Use better fonts in flashcards ??
+Adjust html format in some cards
+..
