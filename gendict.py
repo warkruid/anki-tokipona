@@ -1,12 +1,13 @@
-# input filename <language1>-<language2>.csv
-# first line <language1>\t<language2>
+"""
+input filename <language1>-<language2>.csv
+first line <language1>\t<language2>
+"""
 
-import os
 import getopt
 import sys
-import genanki
 import csv
 import random
+import genanki
 
 from os.path import basename
 
