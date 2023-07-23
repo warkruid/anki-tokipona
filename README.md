@@ -10,4 +10,4 @@ The tokipona-english.apkg package is written to the anki-package directory and c
 Toki-pona (c) 2014 Sonja Lang (jan Sonja)<br>
 Tokipona dictionary (c) 2014 Sonja Lang, licensed under the <br>
 Creative Attribution-Noncommercial 4.0 International license<br>
-http://creative-commons.org/licenses/by-nc/4.0/<br
+http://creative-commons.org/licenses/by-nc/4.0/<br>
