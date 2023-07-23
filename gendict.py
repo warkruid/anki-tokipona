@@ -35,8 +35,7 @@ SIMPLE_MODEL = genanki.Model(
             {
                 'name': 'Card 1',
                 'qfmt': '<center><h1>{{Question}}</h1></center>',
-                'afmt': '<center><h1>{{Question}}</h1></center><center>
-                        <hr id="answer"><center><h1>{{Answer}}</h1></center>',
+                'afmt': '<center><h1>{{Question}}</h1></center><center><hr id="answer"><center><h1>{{Answer}}</h1></center>',
                 },
             ])
 
