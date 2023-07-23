@@ -21,7 +21,7 @@ for opt, arg in options:
     elif opt == '--version':
         version = arg
 
-dictionary_name=(os.path.splitext(input_filename)[0])
+dictionary_name=os.path.splitext(input_filename)[0]
 [ leftword, rightword ] = dictionary_name.split('-')
 
 SIMPLE_MODEL = genanki.Model(
@@ -35,7 +35,8 @@ SIMPLE_MODEL = genanki.Model(
             {
                 'name': 'Card 1',
                 'qfmt': '<center><h1>{{Question}}</h1></center>',
-                'afmt': '<center><h1>{{Question}}</h1></center><center><hr id="answer"><center><h1>{{Answer}}</h1></center>',
+                'afmt': '<center><h1>{{Question}}</h1></center><center>
+                        <hr id="answer"><center><h1>{{Answer}}</h1></center>',
                 },
             ])
 
